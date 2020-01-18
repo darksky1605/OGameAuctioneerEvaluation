@@ -45,8 +45,13 @@ def getItemName(uuid):
     itemnames["bbc7ee322189528ad5bc3a19e048c4ff582538b5".upper()] = "Admiral"
     itemnames["ddb65e18ec97b32d7dc50249a0d9c256f57664df".upper()] = "Technocrat"
     itemnames["e8e01fb84ed1a33ed3ab34af6fc84e86e3505142".upper()] = "Engineer"
-    
-    
+    itemnames["090a969b05d1b5dc458a6b1080da7ba08b84ec7f".upper()] = "10% Crys Booster (Buddy)"
+    itemnames["b956c46faa8e4e5d8775701c69dbfbf53309b279".upper()] = "10% Met Booster (Buddy)"
+    itemnames["e254352ac599de4dd1f20f0719df0a070c623ca8".upper()] = "10% Deut Booster (Buddy)"
+    itemnames["67d6041bc0206d1ec7ce667e51f9d7ba73314604".upper()] = "Discoverer"
+    itemnames["a521c40c620a2dd22c1bb1e9db722c4c15e42eb1".upper()] = "Collector"
+    itemnames["cf37caa096aac5127ec3fe67c2606075fcc652a8".upper()] = "General"
+
     return itemnames.get(uuid.upper(), "Unknown item name")
 
 def getItemNumber(uuid):
@@ -87,6 +92,12 @@ def getItemNumber(uuid):
     itemnumber["bbc7ee322189528ad5bc3a19e048c4ff582538b5".upper()] = 32
     itemnumber["ddb65e18ec97b32d7dc50249a0d9c256f57664df".upper()] = 33
     itemnumber["e8e01fb84ed1a33ed3ab34af6fc84e86e3505142".upper()] = 34
+    itemnumber["090a969b05d1b5dc458a6b1080da7ba08b84ec7f".upper()] = 35
+    itemnumber["b956c46faa8e4e5d8775701c69dbfbf53309b279".upper()] = 36
+    itemnumber["e254352ac599de4dd1f20f0719df0a070c623ca8".upper()] = 37
+    itemnumber["67d6041bc0206d1ec7ce667e51f9d7ba73314604".upper()] = 38
+    itemnumber["a521c40c620a2dd22c1bb1e9db722c4c15e42eb1".upper()] = 39
+    itemnumber["cf37caa096aac5127ec3fe67c2606075fcc652a8".upper()] = 40   
     
     return itemnumber.get(uuid.upper(), -1)
 
