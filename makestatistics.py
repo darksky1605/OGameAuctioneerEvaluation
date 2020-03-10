@@ -13,12 +13,15 @@ def getItemName(uuid):
     itemnames["de922af379061263a56d7204d1c395cefcfb7d75".upper()] = "+10% Met Booster"    
     itemnames["ba85cc2b8a5d986bbfba6954e2164ef71af95d4a".upper()] = "+20% Met Booster"
     itemnames["05294270032e5dc968672425ab5611998c409166".upper()] = "+30% Met Booster"
+    itemnames["a83cfdc15b8dba27c82962d57e50d8101d263cfb".upper()] = "+40% Met Booster"
     itemnames["3c9f85221807b8d593fa5276cdf7af9913c4a35d".upper()] = "+10% Crys Booster"
     itemnames["422db99aac4ec594d483d8ef7faadc5d40d6f7d3".upper()] = "+20% Crys Booster"    
     itemnames["118d34e685b5d1472267696d1010a393a59aed03".upper()] = "+30% Crys Booster"
+    itemnames["35d96e441c21ef112a84c618934d9d0f026998fd".upper()] = "+40% Crys Booster"
     itemnames["d9fa5f359e80ff4f4c97545d07c66dbadab1d1be".upper()] = "+10% Deut Booster"
     itemnames["e4b78acddfa6fd0234bcb814b676271898b0dbb3".upper()] = "+20% Deut Booster"
     itemnames["5560a1580a0330e8aadf05cb5bfe6bc3200406e2".upper()] = "+30% Deut Booster"
+    itemnames["4b51d903560edd102467b110586000bd64fdb954".upper()] = "+40% Deut Booster"
     itemnames["da4a2a1bb9afd410be07bc9736d87f1c8059e66d".upper()] =  "NEWTRON Bronze"
     itemnames["d26f4dab76fdc5296e3ebec11a1e1d2558c713ea".upper()] =  "NEWTRON Silver"
     itemnames["8a4f9e8309e1078f7f5ced47d558d30ae15b4a1b".upper()] =  "NEWTRON Gold"
@@ -98,6 +101,9 @@ def getItemNumber(uuid):
     itemnumber["67d6041bc0206d1ec7ce667e51f9d7ba73314604".upper()] = 38
     itemnumber["a521c40c620a2dd22c1bb1e9db722c4c15e42eb1".upper()] = 39
     itemnumber["cf37caa096aac5127ec3fe67c2606075fcc652a8".upper()] = 40   
+    itemnumber["a83cfdc15b8dba27c82962d57e50d8101d263cfb".upper()] = 41
+    itemnumber["35d96e441c21ef112a84c618934d9d0f026998fd".upper()] = 42
+    itemnumber["4b51d903560edd102467b110586000bd64fdb954".upper()] = 43
     
     return itemnumber.get(uuid.upper(), -1)
 
